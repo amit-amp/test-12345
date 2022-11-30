@@ -19,7 +19,7 @@ import { OrderService } from "../order.service";
 const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
-  id: "exampleId",
+  id: 42,
   createdAt: new Date(),
   updatedAt: new Date(),
   quantity: 42,
@@ -27,7 +27,7 @@ const CREATE_INPUT = {
   totalPrice: 42,
 };
 const CREATE_RESULT = {
-  id: "exampleId",
+  id: 42,
   createdAt: new Date(),
   updatedAt: new Date(),
   quantity: 42,
@@ -36,7 +36,7 @@ const CREATE_RESULT = {
 };
 const FIND_MANY_RESULT = [
   {
-    id: "exampleId",
+    id: 42,
     createdAt: new Date(),
     updatedAt: new Date(),
     quantity: 42,
@@ -45,7 +45,7 @@ const FIND_MANY_RESULT = [
   },
 ];
 const FIND_ONE_RESULT = {
-  id: "exampleId",
+  id: 42,
   createdAt: new Date(),
   updatedAt: new Date(),
   quantity: 42,
