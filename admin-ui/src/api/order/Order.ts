@@ -2,7 +2,7 @@ import { Customer } from "../customer/Customer";
 import { Product } from "../product/Product";
 
 export type Order = {
-  id: string;
+  id: number;
   createdAt: Date;
   updatedAt: Date;
   quantity: number | null;
